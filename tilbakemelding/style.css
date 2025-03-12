@@ -1,7 +1,7 @@
 html {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-
+/* navbar + tekst */
 header {
     display: flex;
     align-items: center;
@@ -14,6 +14,7 @@ header {
     margin-right: auto;
 }
 
+/* Sentrert list til høyre */
 .center-list {
     display: flex;
     list-style: none;
@@ -21,6 +22,7 @@ header {
     gap: 20px;
 }
 
+/* Href, fjernet lina under og stylet den svart */
 a {
     text-decoration: none;
     color: black;
@@ -28,11 +30,13 @@ a {
     border-radius: 10px;
 }
 
+/* Hoved farger hvis ikke bildet fungerer */
 body {
     background-color: rgb(95, 158, 160);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/bilder/canvaspainting.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/Craftsvilla/bilder/canvaspainting.jpg);
 }
 
+/* Hoved Div */
 .mainframe {
     display: flex;
     background-size: cover;
@@ -45,6 +49,7 @@ body {
     gap: 20px;
 }
 
+/* Children Div */
 .leftframe, .rightframe {
     flex: 1;
     max-width: 500px;
@@ -69,6 +74,7 @@ body {
     line-height: 1.5;
 }
 
+/* Det som er inni rightframe div nr 1 */
 .rightframe-content1 {
     display: flex;
     align-items: center;
@@ -80,12 +86,7 @@ body {
     padding-left: 10px;
 }
 
-.rightframe-content1 img {
-    max-width: 250px;
-    height: auto;
-    border-radius: 10px;
-}
-
+/* Det som er inni rightframe div nr 2 */
 .rightframe-content2 {
     display: flex;
     align-items: center;
@@ -97,12 +98,7 @@ body {
     padding-left: 10px;
 }
 
-.rightframe-content2 img {
-    max-width: 250px;
-    height: auto;
-    border-radius: 10px;
-}
-
+/* Det som er inni rightframe div nr 3  */
 .rightframe-content3 {
     display: flex;
     align-items: center;
@@ -112,11 +108,4 @@ body {
     color: black;
     padding-left: 10px;
 }
-
-.rightframe-content3 img {
-    max-width: 250px;
-    height: auto;
-    border-radius: 10px;
-}
-
 

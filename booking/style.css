@@ -2,6 +2,7 @@ html {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+/* navbar + tekst */
 header {
     display: flex;
     align-items: center;
@@ -14,6 +15,7 @@ header {
     margin-right: auto;
 }
 
+/* Sentrert list til høyre */
 .center-list {
     display: flex;
     list-style: none;
@@ -21,6 +23,7 @@ header {
     gap: 20px;
 }
 
+/* Href, fjernet lina under og stylet den svart */
 a {
     text-decoration: none;
     color: black;
@@ -28,11 +31,13 @@ a {
     border-radius: 10px;
 }
 
+/* Hoved farger hvis ikke bildet fungerer */
 body {
     background-color: rgb(95, 158, 160);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/bilder/canvaspainting.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/Craftsvilla/bilder/canvaspainting.jpg);
 }
 
+/* Hoved Div */
 .mainframe {
     display: flex;
     background-size: cover;
@@ -46,6 +51,7 @@ body {
     flex-direction: column;
 }
 
+/* google kalender ble transparrent så måtte legge til en bakgrunnsfarge på den */
 .googlecalendar {
     background-color: white;
 }
